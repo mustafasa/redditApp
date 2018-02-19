@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Reddit</string>
+    <string name="reddit_author">Author</string>
+    <string name="reddit_title">Title</string>
+    <string name="reddit_count">Count: %d</string>
+    <string name="reddit_add_time" formatted="false">%d hours ago</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="limit">Limit Exceed</string>
+    <string name="button_setting">Setting</string>
+    <string name="pull_to_refresh">Please pull down to refresh</string>
+    <string name="title_storage_permission_denied">Storage Permission</string>
+    <string name="description_storage_permission_denied">Storage permission is needed to run this
+        App.You can't use the App</string>
+</resources>
