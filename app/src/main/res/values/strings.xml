@@ -9,6 +9,6 @@
     <string name="button_setting">Setting</string>
     <string name="pull_to_refresh">Please pull down to refresh</string>
     <string name="title_storage_permission_denied">Storage Permission</string>
-    <string name="description_storage_permission_denied">Storage permission is needed to run this
-        App.You can't use the App</string>
+    <string name="description_storage_permission_denied">Storage permission is
+        needed to run this App.You can\'t use the App</string>
 </resources>
