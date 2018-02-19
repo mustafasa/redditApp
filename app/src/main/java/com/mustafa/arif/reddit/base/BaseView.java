@@ -53,6 +53,10 @@ public interface BaseView {
      */
     public void showStoragePermissionRuntime();
 
+    /**
+     * Show standard short toast message
+     * @param message
+     */
     public void toastMessage(@StringRes int message);
 
 }
