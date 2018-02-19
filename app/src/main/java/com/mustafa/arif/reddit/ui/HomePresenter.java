@@ -174,7 +174,7 @@ public class HomePresenter extends BasePresenter<HomePresenter.View> {
     private void callRefresh() {
         if (communicationChecker.isNetworkAvailable() && getView()
                 .checkPermissionForReadExtertalStorage()) {
-            redditCommunicator.getTop(10, 10, after).enqueue(new Callback<RedditTop>() {
+            redditCommunicator.getTop(10, 10, "").enqueue(new Callback<RedditTop>() {
                 @Override
                 public void onResponse(Call<RedditTop> call, Response<RedditTop> response) {
                     recyclerViewUpdater(response.body().getData().getChildren(),
