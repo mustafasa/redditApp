@@ -5,7 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
 
 /**
- * Created by musta on 2/18/2018.
+ * Interface for p>V communication
  */
 
 public interface BaseView {
